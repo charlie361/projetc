@@ -1,0 +1,68 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  background-image: linear-gradient(15deg, #0f1010, #1f3947, #03a9f4, #0d0e0e);
+}
+.display-1 {
+  font-family:'Bebas Neue', cursive; 
+  color: white;
+}
+.nav-item {
+  font-family: "Lato", sans-serif;
+}
+.text-center.p-3 {
+  background-image: linear-gradient(15deg, #0f1010, #1f3947, #03a9f4, #0d0e0e);
+}
+
+
+/*Carlos, agregué fondo de pantalla*/
+ .principal {
+  background-image: url("./fondos/estadio-desde-arriba.jpg.jpeg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+ }
+
+/*agregué cajas con flexbox que contienen las banderas y en el medio los horarios y fechas de cada partio*/ 
+.cajas {
+  width: 17%;
+  margin-bottom: 20px;
+  border:  solid 1px rgb(118, 118, 253);
+  margin: 1px;
+  border-top-left-radius:  25%;
+  border-bottom-right-radius: 25%;
+  background-color: rgba(156, 11, 11, 0.5);
+  
+}
+
+
+.banderas {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius:  25%;
+  border-bottom-right-radius: 25%;
+}
+
+.contenedor {
+  display: flex; /* con esta propiedad hacemos los elementos flexible*/
+  justify-content: center; /*se centran todos los elementos*/
+  margin: 15px;
+}
+
+.parrafo {
+  font-size: 70%;
+  text-align: center;
+  position: relative;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  
+}
+
+
+
+
+

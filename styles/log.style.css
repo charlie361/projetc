@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  .navbar {
+    background-image: linear-gradient(15deg, #0f1010, #1f3947, #03a9f4, #0d0e0e);
+  }
+  .display-1 {
+    font-family:'Bebas Neue', cursive; 
+    color: white;
+  }
+  .nav-item {
+    font-family: "Lato", sans-serif;
+  }
+  .text-center.p-3 {
+    background-image: linear-gradient(15deg, #0f1010, #1f3947, #03a9f4, #0d0e0e);
+  }
+  
+  .contenedor{
+    background-image:url("fondos/colores\ y\ copa\ al\ medio.jpg.jpeg") ;
+    height: 100vh;
+background-position: center;
+background-size: cover;
+  }
+
+  
+#boton{
+  border-radius: 13px;
+  border-color: white;
+  color: white;
+}
+
+/*Menu de inicio de sesión*/
+
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: linear-gradient(27deg, #34495e 50%, #2c3e50 50%);
+  
+}
+
+.form-body{
+  width: 400px;
+  min-width: 300px;
+  border-radius: 10px;
+   /*propiedad que hace que solo uno de los bordes, vertices, de las puntas sea redondeada*/
+  border-top-left-radius:  50px;
+  border-bottom-right-radius: 50px;
+  border:  solid 1px #2980b9;
+  margin: 10px;
+  
+}
+
+
+.text {
+  text-align: center;
+  font-size: 1.5rem;
+  font-size: 600;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.form-body input {
+  display: block;
+  margin: auto;
+  height: 40px;
+  width: 75%;
+  padding-left: 10px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: transparent;
+  /*propiedad que hace que solo uno de los bordes, vertices, de las puntas sea redondeada*/
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+/*dentro de los corchetes vamos a acceder al input de tipo password, los corchetes especifícan lo que queremos estilizar*/
+.form-body input[type="password"]{
+  /*espacio que separa los dos rectángulos, el de Email y nombre con el de contraseña*/
+  margin-top: 20px;
+
+}
+
+/*doble 2 puntos(::) */
+::placeholder {
+  font-size: 1rem;
+  color: rgb(255, 255, 255, .596);
+
+}
+
+/*para que haya un efecto de cambio, cuando paso el cursor sobre los rectángulos, estos cambian de color y tambien cuando se escribe dentro de ellos*/
+.form-body input:hover {
+  transition: .5s;
+  border: 1px solid #2980b9;
+  color: #2498db;
+}
+
+/*personalizar el boton de iniciar sesión*/
+.form-body button{
+  display: block;
+  margin: auto;/*para que se centre el boton*/
+  margin-top: 25px;/*para separarlo de los rectángulos de arriba*/
+  margin-bottom: 30px;
+  height: 40px;
+  width: 78%;
+  background: transparent;
+  color: #b9c4c6;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  transition: all .5s ease;/*Efecto*/
+}
+
+.form-body button:hover {
+  color: white;
+  border: 2px solid white;
+  background:linear-gradient(#34495e, #2c3e50);
+}

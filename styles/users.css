@@ -1,0 +1,55 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  background-image: linear-gradient(15deg, #0f1010, #1f3947, #03a9f4, #0d0e0e);
+}
+.display-1 {
+  font-family:'Bebas Neue', cursive; 
+  color: white;
+}
+.nav-item {
+  font-family: "Lato", sans-serif;
+}
+.text-center.p-3 {
+  background-image: linear-gradient(15deg, #0f1010, #1f3947, #03a9f4, #0d0e0e);
+}
+
+/*Carlos, agregué fondo de pantalla*/
+.fondo{
+background-image: url("fondos/fondo\ jugadores\ abrazados.jpeg");
+height: 100vh;
+background-position: center;
+background-size: cover;
+overflow-y: scroll;
+}
+
+
+h4 {
+  font-family:'Bebas Neue', cursive; 
+  color: white;
+  text-align: center;
+}
+
+
+.arqueros {
+  width: 20%;
+}
+
+.defensores{
+  width: 20%;
+}
+
+.volantes {
+  width: 20%;
+}
+
+.delanteros{
+  width: 20%;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
